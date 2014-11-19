@@ -1,0 +1,29 @@
+Java Crypto Lib Sample (Mis)use 
+
+Algorithms:
+	AES
+	DES
+	RSA
+	Hash
+	(To be added...)
+
+Misuse points:
+	default working mode?
+	default iv=0?
+	outdated method?
+	secure guide in documentation?
+	risky code samples?
+	strong type,boundary check,exceptions?(eg:padding oracle)
+	(To be added...)
+
+See Java API docs for more information
+	java.security
+	https://docs.oracle.com/javase/7/docs/api/java/security/package-summary.html
+	javax.crypto
+	https://docs.oracle.com/javase/7/docs/api/javax/crypto/package-summary.html
+
+Use BouncyCastle as a provider
+	https://www.bouncycastle.org/
+
+Referenced book:
+	《Java加密与解密的艺术》http://book.douban.com/subject/25861566/
